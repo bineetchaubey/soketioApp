@@ -1,9 +1,19 @@
-node-js and soket io small chat aplication demo 
+node-js and socket io small chat aplication demo 
 ====================================
 
 this is application of  soket io and node js for a simple demo 
 
-
+ How you can use this
+ 
+ 1.  install node js on you system
+ 2.  create a directory on  you system socketdemo
+ 3.  cd socketdemo
+ 4.  clone https://github.com/bineetchaubey/soketioApp
+ 5.  cd soketio-demo
+ 6.  npm install
+ 7.  node server.js
+ 8.  goto localhost:
+ 
  
  Version:     1.1<br>
  Author:      Bineet chuabey<br>
@@ -11,24 +21,4 @@ this is application of  soket io and node js for a simple demo
  
  Copyright (c) 2013 Bineet chuabey
  
- Permission is hereby granted, free of charge, to any person
- obtaining a copy of this software and associated documentation
- files (the "Software"), to deal in the Software without
- restriction, including without limitation the rights to use,
- copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the
- Software is furnished to do so, subject to the following
- conditions:
- 
- The above copyright notice and this permission notice shall be
- included in all copies or substantial portions of the Software.
- 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
- EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
- OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
- HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
- WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
- FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.
  
