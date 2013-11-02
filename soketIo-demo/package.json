@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-soketio-application-demo",
+  "version": "0.1.1",
+  "description": "this is a node js and soket io samml chat aplication demo",
+  "main": "server.js",
+  "dependencies": {
+    "socket.io": "~0.9.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bineetchaubey/soketioApp.git"
+  },
+  "author": "Bineet chaubey",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
