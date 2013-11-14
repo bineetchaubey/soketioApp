@@ -1,8 +1,8 @@
-var app					= require('http').createServer(handler),
-	io					= require('socket.io').listen(app),
-	fs					= require('fs'),
-	// mysql				= require('mysql'),
-	connectionsArray	= [];
+var	app = require('http').createServer(handler),
+	io   = require('socket.io').listen(app),
+	fs   = require('fs'),
+// mysql				= require('mysql'),
+connectionsArray	= [];
 	/*connection			= mysql.createConnection({
 		host		: 'localhost',
 		user		: 'root',
@@ -35,24 +35,6 @@ function handler ( req, res ) {
 }
 
 
-
-// creating a new websocket to keep the content updated without any AJAX request
-/*io.sockets.on( 'connection', function ( socket ) {
-	console.log('Number of connections:' + connectionsArray.length);
-	// starting the loop only if at least there is one user connected
-	if (!connectionsArray.length) {
-		pollingLoop();
-	}
-	socket.on('disconnect', function () {
-		var socketIndex = connectionsArray.indexOf( socket );
-		console.log('socket = ' + socketIndex + ' disconnected');
-		if (socketIndex >= 0) {
-			connectionsArray.splice( socketIndex, 1 );
-		}
-	});
-	console.log( 'A new socket is connected!' );
-	connectionsArray.push( socket );
-});*/
 
 
 var connections = {};
