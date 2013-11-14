@@ -17,9 +17,9 @@ connection.connect(function(err) {
   // connected! (unless `err` is set)
   console.log( err );
 });*/
-var host = "10.2.2.45";
+var host = "localhost";
 // creating the server ( localhost:8000 )
-app.listen(8123,host);
+app.listen(8000,host);
 
 // on server started we can load our client.html page
 function handler ( req, res ) {
