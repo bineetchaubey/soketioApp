@@ -42,6 +42,12 @@ var connections = {};
 io.sockets.on('connection', function(socket) {
 	
 	socket.on('message', function(data){
+		/**
+		* First check that comming request is form new user  or exiting  user 
+		* if comming request are form new user then push that user soket id in 
+		* connections array with his name 
+		* selfname (user name)
+		*/
 		newuser = connections[data.selfname];
 		if(!newuser){
 			// console.log(connections);
@@ -51,6 +57,10 @@ io.sockets.on('connection', function(socket) {
 			}
 		  connections[data.selfname] = socket; 
 	    }
+	    	/**  if username soket id  exist(ie user have active with his browser) send user(username) to that message 
+		*  
+		*   first check receiver(username) have a soket id available in then send that message to him
+		*/
 
 		target = connections[data.username];
 		if (target) {
